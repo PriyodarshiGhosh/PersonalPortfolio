@@ -1,49 +1,49 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "https://cdn4.vectorstock.com/i/1000x1000/18/48/nature-culinary-logo-vector-34001848.jpg",
+    title: "CulinaryExchange",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
-    github_url: "",
-    demo_url: "https://youknowtheending.net/",
+      "Developed a full-stack web application where users can create, view,upload their own recipes and search recipes uploaded by other users.Implemented secure login and signup with jwt tokens.",
+    tech_stack: ["MongoDB","NoSQL","Node.js","Express","React","Javascript","REST API","ORM","AWS"],
+    github_url: "https://github.com/PriyodarshiGhosh/CulinaryExchange",
+    demo_url: "",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "https://i.pinimg.com/originals/ab/ca/4c/abca4c51c7e166b2980105b5e98b7ac2.jpg",
+    title: "Ecommerce Product Management System",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
-    github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+      "Designed the backend for a product management system implementing spring boot architectural principles where a user can add a product,fetch a product,update an existing product or delete a particular product.Designed the database in MySQL.",
+    tech_stack: ["Java","Spring Boot","MySQL","RDBMS","JPA","Hibernate","REST API","ORM"],
+    github_url: "https://github.com/PriyodarshiGhosh/spring_crud_app",
+    demo_url: "",
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "https://i.pinimg.com/736x/92/19/60/921960d1a076ed5e890fb36e7ad05a31.jpg",
+    title: "Swaad: Dish recommender",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
+      "Created a recommender system where it suggests the user dishes based on his or her preferences and also recommends dishes which the user can create with the available ingredients.",
+    tech_stack: ["Python","Machine learning","Flask","NLP","Pandas","NumPy","Scikit-learn","REST API","KNN" ],
+    github_url: "https://github.com/PriyodarshiGhosh/Swaad-main",
+    demo_url: "",
   },
   {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    img: "https://static-00.iconduck.com/assets.00/chat-icon-1024x1024-o88plv3x.png",
+    title: "GPT-3 Chat Application",
     description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
+      "Implemented a conversational chat application using GPT 3.5 API where a user can start a new conversation and the user can also view past interactions and also delete those interactions if it wishes to.",
+    tech_stack: ["Next.js", "React","Supabase","Shadcn","Vercel","PostgreSQL"],
+    github_url: "https://github.com/PriyodarshiGhosh/AI_CHAT_APP",
+    demo_url: "",
   },
   {
-    img: "/jobDetect.png",
-    title: "JobDetect",
+    img: "https://i.pinimg.com/originals/cc/35/54/cc3554f27dcd410e006dea9317985994.jpg",
+    title: "Camouflaged Target Detection",
     description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
+      "Implemented various classical computer vision approaches which includes Thresholding, Color Space Model and Image Fusion techniques for Camouflaged Object Detection which can be used further for various computer vision applications.",
+    tech_stack: ["Python","OpenCV","Computer Vision","Machine Learning"],
+    github_url: "https://github.com/PriyodarshiGhosh/camouflaged_object_detection",
+    demo_url: "",
   },
 ];
 
@@ -68,7 +68,7 @@ export const stackList = [
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-    name: "NextJs",
+    name: "NextJS",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
@@ -87,51 +87,27 @@ export const stackList = [
     name: "NodeJS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-    name: "Firebase",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+    name: "Express",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
     name: "MongoDB",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-    name: "Python",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    name: "Java",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
     name: "MySQL",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-    name: "Bootstrap",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
     name: "Material UI",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-    name: "Figma",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
     name: "TailwindCSS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    name: "VS Code",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-original.svg",
+    name: "NestJS",
   },
 ];
